@@ -13,6 +13,12 @@ body {
 	width: 100%;
 }
 
+.container-50 {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
 .flex-container {
 	display: flex;
 	background-color: DodgerBlue;
@@ -335,4 +341,115 @@ nav a {
 	justify-content: center;
 	align-items: center;
 	margin: 40px 30px;
+}
+
+.header-member {
+	font-size: 40px;
+	font-family: "Poppins";
+	color: #03014c;
+	margin-top: 70px;
+	text-align: center;
+	font-weight: 800;
+}
+.quote-member {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	width: 48%;
+	color: #03014c;
+}
+.member-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 75px 20px 0px 20px;
+}
+.member-container .member-list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px 0;
+	flex-wrap: nowrap;
+	gap: 40px;
+}
+.member-container .member-list .member img {
+	border-radius: 50%;
+	width: 67px;
+	height: 67px;
+	object-fit: cover;
+}
+.member-container .member-list .member h2 {
+	font-size: 18px;
+	margin: 10px 0 5px 0;
+}
+.member-container .member-list .member p {
+	font-size: 14px;
+	color: #2e3e5c;
+}
+.member-container .member-list .member.active {
+	font-size: 14px;
+	color: #2e3e5c;
+	margin-top: 67px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 10px;
+}
+.member-container .member-list .member.active img {
+	border-radius: 50%;
+	width: 103px;
+	height: 103px;
+	object-fit: cover;
+}
+.member-container .member-list .member.active h2 {
+	font-size: 24px;
+	margin: 10px 0 5px 0;
+	font-weight: 700;
+}
+.member-container .member-list .member.active p {
+	font-size: 14px;
+	color: #2e3e5c;
+}
+
+.mgtop-70 {
+	margin-top: 70px;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.subscribe {
+	display: flex;
+	width: 66%;
+	background: #706fe529;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+.subscribe .email {
+	display: flex;
+}
+
+.subscribe .email img {
+	width: 40px;
+	height: 40px;
+}
+
+.subscribe .input-box {
+	display: flex;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.subscribe .input-box input {
+	width: 100%;
+	background: #706fe500;
+	border: none;
+	font-size: 16px;
 }
