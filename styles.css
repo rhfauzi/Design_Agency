@@ -280,6 +280,7 @@ nav a {
 .footer {
 	display: flex;
 	background: #2e3e5c;
+	margin-top: 100px;
 }
 
 .footer .footer-top {
@@ -301,11 +302,11 @@ nav a {
 .footer .footer-top .sosmed a img {
 	margin-right: 10px;
 }
-.footer-bottom {
+.footer-middle {
 	border-top: 2px solid #eaeef3;
 	margin: 20px 0px 20px 0px;
 }
-.footer-bottom h1 {
+.footer-middle h1 {
 	font-size: 18px;
 	color: #fff;
 	margin-top: 45px;
@@ -326,4 +327,12 @@ nav a {
 .footer-menu .menu a {
 	color: #fff;
 	text-decoration: none;
+}
+.footer-bottom {
+	display: flex;
+	font-size: 14px;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 30px;
 }
